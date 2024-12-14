@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasmas - Phasmoguía</title>
+    <link rel="stylesheet" media="all" href="recursos/estilos_fantasmas.css" />
+    <link rel="shortcut icon" href="recursos/icono.ico" type="image/x-icon">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <video src="/recursos/video_fondo.mp4" muted autoplay loop></video>
+
+    <a id="btnArriba" href="#espiritu">&#x2191;</a>
+
+    <nav>
+        <div class="menu_desplegables_y_logo">
+            <div class="logo">
+                <a class="logo" href="index.html">
+                    <img src="/recursos/imagenes/nav/logo.png" alt="PHASMOPHOBIA"
+                        style=" max-width: 360px; height: 110px; padding-top: 10px;">
+                </a>
+            </div>
+            <ul>
+                <li class="desplegable">
+                    <a href="fantasmas.html"
+                        style="background-image: url('/recursos/imagenes/nav/etiqueta.png'); background-size: cover; width: 200px; height: 60px; display: inline-block; text-align: center; line-height: 50px; padding-top: 10px;">
+                        Fantasmas</a>
+                    <div class="contenido-desplegable"
+                        style="background-image: url('/recursos/imagenes/nav/folio_corcho.jpg'); column-count: 2;">
+                        <a href="/fantasmas.html#espiritu">Espíritu</a>
+                        <a href="/fantasmas.html#espectro">Espectro</a>
+                        <a href="/fantasmas.html#ente">Ente</a>
+                        <a href="/fantasmas.html#poltergeist">Poltergeist</a>
+                        <a href="/fantasmas.html#banshee">Banshee</a>
+                        <a href="/fantasmas.html#jinn">Jinn</a>
+                        <a href="/fantasmas.html#pesadilla">Pesadilla</a>
+                        <a href="/fantasmas.html#revenant">Revenant</a>
+                        <a href="/fantasmas.html#sombra">Sombra</a>
+                        <a href="/fantasmas.html#demonio">Demonio</a>
+                        <a href="/fantasmas.html#yurei">Yurei</a>
+                        <a href="/fantasmas.html#oni">Oni</a>
+                        <a href="/fantasmas.html#yokai">Yokai</a>
+                        <a href="/fantasmas.html#hantu">Hantu</a>
+                        <a href="/fantasmas.html#goryo">Goryo</a>
+                        <a href="/fantasmas.html#myling">Myling</a>
+                        <a href="/fantasmas.html#onryo">Onryo</a>
+                        <a href="/fantasmas.html#gemelos">Gemelos</a>
+                        <a href="/fantasmas.html#raiju">Raiju</a>
+                        <a href="/fantasmas.html#obake">Obake</a>
+                        <a href="/fantasmas.html#mimico">Mímico</a>
+                        <a href="/fantasmas.html#moroi">Moroi</a>
+                        <a href="/fantasmas.html#deogen">Deogen</a>
+                        <a href="/fantasmas.html#thaye">Thaye</a>
+                </li>
+                <li class="desplegable">
+                    <a href="pruebas.html"
+                        style="background-image: url('/recursos/imagenes/nav/etiqueta2.png'); background-size: cover; width: 200px; height: 40px; display: inline-block; text-align: center; line-height: 50px; padding-top: 10px;padding-bottom: 10px; margin-top: 5px;">
+                        Pruebas</a>
+                    <div class="contenido-desplegable"
+                        style="background-image: url('/recursos/imagenes/nav/folio_corcho.jpg');">
+                        <a href="/pruebas.html#emf5">EMF 5</a>
+                        <a href="/pruebas.html#huellas">Huellas dactilares</a>
+                        <a href="/pruebas.html#escritura">Escritura Fantasma</a>
+                        <a href="/pruebas.html#temperaturas">Tº bajo 0</a>
+                        <a href="/pruebas.html#dots">Proyector D.O.T.S</a>
+                        <a href="/pruebas.html#orbes">Orbes espectrales</a>
+                        <a href="/pruebas.html#spirit">Caja espectral</a>
+                    </div>
+                </li>
+                <li class="desplegable">
+                    <p
+                        style="background-image: url('/recursos/imagenes/nav/etiqueta5.png'); background-size: cover; width: 150px; height: 50px; display: inline-block; text-align: center; line-height: 50px;">
+                        Mapas</p>
+                    <div class="contenido-desplegable"
+                        style="background-image: url('/recursos/imagenes/nav/folio_corcho.jpg');">
+                        <a href="#">Pequeños</a>
+                        <a href="#">Medianos</a>
+                        <a href="#">Grandes</a>
+
+                    </div>
+                </li>
+                <li class="desplegable">
+                    <p
+                        style="background-image: url('/recursos/imagenes/nav/etiqueta3.png'); background-size: cover; width: 220px; height: 50px; display: inline-block; text-align: center; line-height: 50px;">
+                        Items de la tienda</p>
+                    <div class="contenido-desplegable"
+                        style="background-image: url('/recursos/imagenes/nav/folio_corcho.jpg'); column-count: 2;">
+                        <a href="#">Medidor EMF</a>
+                        <a href="#">Libro de escritura fantasma</a>
+                        <a href="#">Linterna</a>
+                        <a href="#">Linterna ultravioleta</a>
+                        <a href="#">Caja espectral</a>
+                        <a href="#">Termómetro</a>
+                        <a href="#">Proyector D.O.T.S</a>
+                        <a href="#">Sal</a>
+                        <a href="#">Incienso</a>
+                        <a href="#">Crucifijo</a>
+                        <a href="#">Cámara</a>
+                        <a href="#">Cámara de vídeo</a>
+                        <a href="#">Cámara de cabeza</a>
+                        <a href="#">Trípode</a>
+                        <a href="#">Sensor de movimiento</a>
+                        <a href="#">Sensor de sonido</a>
+                        <a href="#">Micrrófono parabólico</a>
+                        <a href="#">Velas</a>
+                        <a href="#">Encendedor</a>
+                        <a href="#">Medicación de cordura</a>
+                        <a href="#"></a>
+
+                    </div>
+                </li>
+                <li class="desplegable">
+                    <p
+                        style="background-image: url('/recursos/imagenes/nav/etiqueta.png'); background-size: cover; width: 200px; height: 50px; display: inline-block; text-align: center; line-height: 50px;">
+                        Ajustes</p>
+                    <div class="contenido-desplegable"
+                        style="background-image: url('/recursos/imagenes/nav/folio_corcho.jpg');">
+                        <a href="#">Vídeo</a>
+                        <a href="#">Sonido</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Fantasma 1 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espiritu">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espiritu.png" alt="" style="width:100px;">
+
+                <h2>ESPÍRITU</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/diario-Photoroom.png" alt="Escena 3" class="foto_pruebas">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espíritus son fantasmas muy comunes. Son muy poderosos, pero pasivos, y solo atacan
+                        cuando
+                        es
+                        necesario. Defienden su lugar de muerte al máximo, matando a cualquiera que sea sorprendido
+                        permaneciendo más tiempo de lo esperado".
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Ninguna conocida.
+                        DEBILIDAD: Usar incienso cerca de ellos los parará temporalmente.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa incienso cerca de un espíritu, no podrá iniciar una caza durante 180 segundos
+                        en lugar de 90 segundos con la mayoría de los demás fantasmas. Como otros fantasmas, esto no
+                        impedirá las cacerías malditas. Este retraso también se aplicará si el Espíritu fue manchado
+                        durante una cacería.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>No tiene habilidad específica, pero deambula mucho por lo que puede ser complicado saber
+                        donde
+                        está en cada momento, sobre todo en
+                        mapas grandes.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>El espírtu puede resultar dificil de identificar dado que su comportamiento cambia en cada
+                        partida, la única carcaterística importante que debemos tener en cuenta es la duración del
+                        incienso. </p>
+                    <p>Una vez está en permacaza, es decir cuando estamos sin cordura y no deja de atacar. Podemos
+                        usar incienso encima suya durante una caza y cronometrar el tiempo que tarda en volver a
+                        atacar, si este es inferior a 3 minutos podemos descartar que se trate de un espíritu.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que en el diario del juego nos dice que es un fantasmas muy común su probabilidad de
+                        aparecer
+                        en una de nuestras partidas es exactamente la misma que el resto de fantasmas.</p>
+                    <p>Es el primer fantasma de la lista, por lo que es el preseleccionado en caso de que no elijas
+                        ninguno en el libro.</p>
+                    <img src="/recursos/imagenes/fantasmas/espiritu.png" alt=""
+                        style="width: 120px; height: 140px; padding-left: 180px; padding-top: 40px;"
+                        onclick="abrirpopup(0)">
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 2 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>ESPECTRO</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(1)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 3 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>ENTE</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(2)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 4 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>POLTERGEIST</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(3)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 5 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>BANSHEE</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(4)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 6 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>JINN</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(5)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 7 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>PESADILLA</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(6)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 8 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>REVENANT</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(7)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 9 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>SOMBRA</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(8)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 10 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>DEMONIO</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(9)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 11 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>YUREI</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(10)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 12 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>ONI</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(11)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 13 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>YOKAI</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(12)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 14 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>HANTU</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(13)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 15 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>GORYO</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(14)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 16 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>MYLING</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(15)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 17 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>ONRYO</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(16)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 18 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>GEMELOS</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(17)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 19 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>RAIJU</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(18)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 20 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>OBAKE</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(19)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 21 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>MÍMICO</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(20)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 22 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>MOROI</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(21)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 23 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>DEOGEN</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(22)">
+
+                </article>
+            </div>
+        </section>
+
+        <!-- Fantasma 24 -->
+        <section class="fantasma">
+            <div class="fantasma-header" id="espectro">
+                <img src="/recursos/imagenes/logos_fantasmas/logo_espectro.png" alt="" style="width:100px;">
+
+                <h2>THAYE</h2>
+
+                <div class="imagenes-derecha">
+                    <img src="/recursos/imagenes/pruebas/emf.png" alt="Escena 1" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/spirirt-Photoroom.png" alt="Escena 2" class="foto_pruebas">
+                    <img src="/recursos/imagenes/pruebas/dots.png" alt="Escena 3" class="foto_pruebas"
+                        style="height: auto; width: 42px;">
+                </div>
+            </div>
+            <div class="apartados">
+                <article>
+                    <h3>HISTORIA</h3>
+                    <p>
+                        Los espectros son uno de los fantasmas más peligrosos que encontrarás. También es el único
+                        fantasma conocido que tiene la capacidad de volar y, en ocasiones, se sabe que viaja a
+                        través de
+                        paredes.
+                    </p><br>
+                    <h3>FORTALEZAS & DEBILIDADES: </h3>
+                    <P>FORTALEZA: Casi nunca tocan el suelo, lo que significa que no pueden ser seguidos por sus
+                        pasos.<br>
+                        DEBILIDAD: Temen la sal, la evitaran a toda costa.
+                    </P>
+                </article>
+                <article>
+                    <h3>CARACTERÍSTICAS</h3>
+                    <p>Su rango natural de ataque es el 50% de cordura.</p>
+                    <p>Cuando se usa sal nunca la pisarán, por lo tanto, nunca veremos los montones con pisadas.
+                        Durante
+                        las cazas no sirve tampoco la sal de nivel 3 para relentizarlos.</p>
+                    <h3>HABILIDAD:</h3>
+                    <p>Cuando no está cazando, tiene la posibilidad de teletransportarse a un jugador
+                        aleatorio, generando una lectura de EMF de nivel 2 en el lugar al que se teletransportó, con
+                        un
+                        25 % de posibilidades de que en su lugar sea una lectura de EMF de nivel 5. Reanudará
+                        su comportamiento normal después de teletransportarse.</p>
+                </article>
+                <article>
+                    <h3>CONSEJOS PARA IDENTIFICARLO: </h3>
+                    <p>Para comprobar si es un espectro, una vez identificada su habitación colocaremos sal y
+                        esperaremos a ver si la pisa. Si queremos comprobarlo más rápidamente podemos colocar unos
+                        sensores de movimiento justo encima de los montones de sal, si se activa el sensor pero no
+                        se ha
+                        pisado la sal es un espectro.</p>
+                    <p>Si inicia una cacería desde un punto cercano a un jugador que no es su habitación podemos
+                        sospechar que se trata de un espectro, aun que tambien puede ser una banshee, un espíritu
+                        (aun
+                        que estos no se pueden teletransportar) o un
+                        mimico.</p>
+                    <p>Si tenemos disponible el circulo de invocación podemos colocar una pila de sal en el centro
+                        antes
+                        de summonearlo, si no la pisa es un espectro o un mímico imitandole.</p>
+                </article>
+                <article>
+                    <h3>DATOS DE INTERÉS: </h3>
+                    <p>Aun que no pisen la sal y puedan atravesar paredes su skin es la misma que para el resto de
+                        fantasmas, no podemos identificarlo por ella.</p>
+                    <p>Igualmente no puede ser distinguido por el sonido de sus pisadas ni por atravesar puertas o
+                        paredes durante una caza ya que lo puede hacer cualquier otro fantasma.</p>
+                    <img src="/recursos/imagenes/fantasmas/espectro_dibujo.png" alt=""
+                        style="width: 140px; height: 120px; padding-left: 160px; padding-top: 90px"
+                        onclick="abrirpopup(23)">
+
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <div id="popups"></div>
+    <script>
+
+        const nav = document.querySelector('nav');
+        const main = document.querySelector('main');
+
+        const videos = [
+            ['/recursos/videos/emf2.mp4'],
+            ['/recursos/videos/video_espectro.mp4'],
+            ['/recursos/videos/esc1.mp4'],
+            ['/recursos/videos/temp1.mp4'],
+            ['/recursos/videos/dots1.mp4'],
+            ['/recursos/videos/orbes1.mp4'],
+            ['/recursos/videos/caja1.mp4']
+        ];
+
+        const pruebaDescriptions = [
+            ["Descripción Espirítu"],
+            ["Descripción Espectro"],
+            ["Descripción Escritura Nivel 1"],
+            ["Descripción Temperatura Nivel 1"],
+            ["Descripción DOTS Nivel 1"],
+            ["Descripción Orbes Nivel 1"],
+            ["Descripción Caja Nivel 1"]
+        ];
+
+        const fantasmas = [
+            ["Espirítu"],
+            ["Espectro"],
+            ["Descripción Escritura Nivel 1"],
+            ["Descripción Temperatura Nivel 1"],
+            ["Descripción DOTS Nivel 1"],
+            ["Descripción Orbes Nivel 1"],
+            ["Descripción Caja Nivel 1"]
+        ];
+
+        function abrirpopup(galeria) {
+            const popupId = `popup${galeria * 3}`;
+            let popup = document.getElementById(popupId);
+            if (!popup) {
+                popup = document.createElement('div');
+                popup.className = 'popup';
+                popup.id = popupId;
+                popup.innerHTML = `
+                    <video src="${videos[galeria]}" controls="false" autoplay loop></video>
+                    <div class="descripcion_video">
+                        <h3>Prueba ${fantasmas[galeria]}:</h3>
+                        <p>${pruebaDescriptions[galeria]}</p>
+                    </div>
+                `;
+                document.getElementById('popups').appendChild(popup);
+            }
+            popup.classList.add("active"); // Use add instead of toggle for more predictable behavior
+            // play video when popup opens
+            popup.querySelector('video').play();
+
+            nav.style.filter = 'brightness(0.2)';
+            main.style.filter = 'brightness(0.2)';
+        }
+
+        window.addEventListener("click", function (event) {
+            if (!event.target.closest('.apartados img')) {
+                for (let i = 0; i < 7; i++) {
+                    const popupId = `popup${i * 3}`;
+                    const popup = document.getElementById(popupId);
+                    if (popup && !popup.contains(event.target)) {
+                        popup.classList.remove("active");
+                        // pause video when popup closes
+                        popup.querySelector('video').pause();
+
+                        nav.style.filter = 'brightness(1)';
+                        main.style.filter = 'brightness(1)';
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
